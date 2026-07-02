@@ -57,31 +57,6 @@ The models are evaluated on the **MovieLens 100k** dataset (100,000 ratings from
 
 ---
 
-## 📁 Project Structure
-
-collaborative-filtering-recommender/
-├── data/
-│ ├── raw/ # (dataset downloaded automatically)
-│ └── processed/ # (processed data – not used here)
-├── notebooks/
-│ └── 01_recommender.ipynb # Main analysis & model training
-├── src/
-│ ├── init.py
-│ ├── data_loader.py # Load MovieLens dataset
-│ ├── recommender.py # Model creation functions
-│ └── evaluator.py # Evaluation & comparison utilities
-├── tests/
-│ └── test_recommender.py # (placeholder for future tests)
-├── results/
-│ ├── plots/ # Saved figures 
-│ └── reports/ # (future report outputs)
-├── requirements.txt
-├── .gitignore
-├── README.md
-└── LICENSE
-
----
-
 ## 🚀 Getting Started
 
 ### Prerequisites
