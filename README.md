@@ -96,3 +96,14 @@ collaborative-filtering-recommender/
    ```bash
    git clone https://github.com/younESCOO2003/collaborative-filtering-recommender.git
    cd collaborative-filtering-recommender
+
+
+python -m venv venv
+#  Windows:
+venv\Scripts\activate
+#  macOS/Linux:
+source venv/bin/activate
+
+pip install -r requirements.txt
+
+jupyter notebook
