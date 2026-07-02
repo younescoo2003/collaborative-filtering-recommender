@@ -74,9 +74,9 @@ The models are evaluated on the **MovieLens 100k** dataset (100,000 ratings from
 
 
 python -m venv venv
-#  Windows:
+###  Windows:
 venv\Scripts\activate
-#  macOS/Linux:
+###  macOS/Linux:
 source venv/bin/activate
 
 pip install -r requirements.txt
